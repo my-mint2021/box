@@ -160,11 +160,12 @@
 .image-slider {
   padding-top: 60px;
   position: relative;
-  height: 100vh;
+  // height: 100%;
   z-index: 1;
   // .image-slider__image
 
   &__image {
+    height: 90vh;
 
     // text-align: center;
     img {
@@ -213,6 +214,7 @@
       transform: translateY(-2px);
     }
   }
+
   // .image-slider__content
 }
 
@@ -389,6 +391,7 @@
   background: url(../img/bg_games.png) center / cover no-repeat;
   padding-bottom: 60px;
   z-index: 5;
+
   .games-bg {
     position: absolute;
     top: 0;
