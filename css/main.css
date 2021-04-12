@@ -91,7 +91,7 @@ h6 {
 .image-slider {
   padding-top: 60px;
   position: relative;
-  height: 100%;
+  height: 100vh;
   z-index: 1;
 }
 
