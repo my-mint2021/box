@@ -91,15 +91,14 @@ h6 {
 .image-slider {
   padding-top: 60px;
   position: relative;
+  height: 100%;
   z-index: 1;
-}
-
-.image-slider__image {
-  height: 90vh;
 }
 
 .image-slider__image img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .image-slider__title {
